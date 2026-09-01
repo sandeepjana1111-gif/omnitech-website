@@ -1,5 +1,6 @@
 import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
+
 import logo from '../../assets/logo.PNG'
 
 const Footer = () => {
@@ -19,6 +20,24 @@ const Footer = () => {
     'Contract Manufacturing',
     'Hydraulic Systems',
     'Pneumatic Systems',
+  ]
+
+  const socialLinks = [
+    {
+      name: 'LinkedIn',
+      shortName: 'in',
+      url: 'https://www.linkedin.com/in/sandeep-jena-dev/',
+    },
+    {
+      name: 'Instagram',
+      shortName: 'ig',
+      url: 'https://www.instagram.com/lovly_ruchi09?igsi=YTh2cnFsMHVqbTNl',
+    },
+    {
+      name: 'YouTube',
+      shortName: 'yt',
+      url: 'https://www.youtube.com/',
+    },
   ]
 
   return (
@@ -53,6 +72,29 @@ const Footer = () => {
               specialized industrial applications.
             </p>
 
+            {/* Social Media */}
+            <div className="mt-6">
+              <p className="text-xs font-semibold uppercase tracking-[0.15em] text-white">
+                Follow Us
+              </p>
+
+              <div className="mt-4 flex items-center gap-3">
+                {socialLinks.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.name}
+                    className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-800 bg-[#111827] text-xs font-bold uppercase text-slate-400 transition duration-300 hover:border-[#5A9E43] hover:bg-[#5A9E43] hover:text-white"
+                  >
+                    {social.shortName}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* Conversation */}
             <NavLink
               to="/contact"
               className="group mt-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-300 transition hover:text-[#5A9E43]"
