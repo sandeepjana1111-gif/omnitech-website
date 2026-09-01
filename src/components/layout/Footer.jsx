@@ -1,6 +1,6 @@
 import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react'
 import { NavLink } from 'react-router-dom'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.PNG'
 
 const Footer = () => {
   const quickLinks = [
