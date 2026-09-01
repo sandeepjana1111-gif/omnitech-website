@@ -85,7 +85,7 @@ const CTA = () => {
                     <p className="text-xs text-slate-500">Call us</p>
 
                     <p className="mt-1 text-sm font-medium text-slate-300 transition group-hover:text-[#5A9E43]">
-                      +91 90822 4612
+                      +91 908222 4612
                     </p>
                   </div>
                 </NavLink>

@@ -115,7 +115,7 @@ const Footer = () => {
                 <Phone size={18} className="mt-0.5 shrink-0 text-[#5A9E43]" />
 
                 <span className="text-sm text-slate-400 transition group-hover:text-[#5A9E43]">
-                  +91 90822 4612
+                  +91 908222 4612
                 </span>
               </NavLink>
 

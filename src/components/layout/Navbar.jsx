@@ -32,7 +32,7 @@ const Navbar = () => {
             className="flex items-center gap-2 text-xs text-slate-400 transition hover:text-[#5A9E43]"
           >
             <Phone size={14} />
-            +91 90822 4612
+            +91 908222 4612
           </NavLink>
 
           <NavLink
@@ -165,7 +165,7 @@ const Navbar = () => {
                   className="flex items-center gap-3 text-xs text-slate-400 transition hover:text-[#5A9E43]"
                 >
                   <Phone size={15} className="text-[#5A9E43]" />
-                  +91 90822 4612
+                  +91 908222 4612
                 </NavLink>
 
                 <NavLink
